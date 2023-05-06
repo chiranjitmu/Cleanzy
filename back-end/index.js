@@ -232,7 +232,7 @@ app.post('/send-otp', (req, res) => {
         service: 'gmail',
         auth: {
             user: '{your gmail}',
-            pass: '{paste gmail app password}'
+            pass: '{paste gmail app password and also on the 2fa verification of app password}'
         }
     });
   const mailOptions = {
